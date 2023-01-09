@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+}
+
+
+.countdown {
+  display: flex;
+}
+
+.countdown .time {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.countdown .time div {
+  width: 150px;
+  height: 100px;
+  background-color: #222;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 36px;
+}
+
+p {
+  margin: 6px;
+}
